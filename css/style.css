@@ -1,0 +1,52 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.card {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+}
+
+.card-header {
+    background-color: #fff !important;
+    border: none !important;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.card-header > * {
+    padding: 10px;
+}
+
+.login-page {
+    margin: 10% auto;
+}
+
+.login-page .card {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.btn-submit {
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (max-width: 415px) {
+    .login-page .card {
+        width: 80%;
+    }
+    .login-page {
+        margin: 25% auto;;
+    }
+}

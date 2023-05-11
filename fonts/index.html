@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Ups 403 Sobs</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <style>
+    html,
+    body {
+      height: 100%;
+      color: rgb(1, 1, 54);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .content {
+      text-align: center;
+      width: 70%;
+      height: 70%;
+    }
+
+    .why-container {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .why-item {
+      flex: 1 1 0;
+      display: flex;
+      margin: 20px;
+      padding: 20px;
+      flex-direction: row;
+      background-color: rgba(221, 221, 221, 0.267);
+    }
+
+    .why-item p {
+      text-align: left !important;
+      margin: auto;
+      font-size: 12pt;
+      line-height: 150%;
+    }
+
+    .why-item span {
+      text-align: right !important;
+      font-size: 25pt;
+      font-weight: 900;
+      padding: 10px 30px 10px 10px;
+      color: rgb(173, 173, 173);
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 30pt;
+      margin: -50pt 0px 0px 0px;
+    }
+
+    h3 {
+      margin: 0px;
+      font-weight: 500;
+    }
+
+    h4 {
+      margin: 50pt 0px 0px 0px;
+      font-weight: 500;
+      font-size: 14pt;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .content {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+      }
+
+      .why-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      h1 {
+        font-size: 30pt;
+        margin: 0px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <img src="https://jagoanhosting.com/wp-content/uploads/jh-error-403.png" style="width: 80%; margin: auto;">
+      <h1>Forbidden</h1>
+      <h3>Access to this resource on the server is denied!</h3>
+      <h4>Kenapa hal ini bisa terjadi?</h4>
+      <div class="why-container">
+        <div class="why-item">
+          <span>
+            01
+          </span>
+          <p>
+            Tidak ada file <b>index.php atau index.html</b> pada folder public_html kamu sehingga error berikut tampil.
+            Segera
+            install CMS baru via softacolus atau upload website kamu.
+          </p>
+        </div>
+        <div class="why-item">
+          <span>
+            02
+          </span>
+          <p>
+            Cek Kembali file/Folder permission pada website kamu untuk mepernaiki error tersebut.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
